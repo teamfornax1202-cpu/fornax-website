@@ -40,9 +40,9 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               {[
-                { Icon: Facebook, href: '#' },
-                { Icon: Instagram, href: '#' },
-                { Icon: Twitter, href: '#' },
+                // { Icon: Facebook, href: '#' },
+                { Icon: Instagram, href: 'https://www.instagram.com/fornax_healthcare?stkn=ODBkMmg3b2lkOWNt&utm_source=qr' },
+                // { Icon: Twitter, href: '#' },
                 { Icon: Linkedin, href: 'https://www.linkedin.com/in/rishikeshrdhoot/' },
               ].map(({ Icon, href }, i) => (
                 <a

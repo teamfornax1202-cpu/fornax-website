@@ -110,7 +110,8 @@ export const events: EventData[] = [
       {
         type: 'image',
         src: EventImage_5,
-        title: 'Sports physio team assisting endurance runners'
+        title: 'Sports physio team assisting endurance runners',
+        rotateClass: '-rotate-90 scale-[1.35]'
       },
       {
         type: 'image',
@@ -176,4 +177,5 @@ export const events: EventData[] = [
     ]
   }
 ]
+
 
